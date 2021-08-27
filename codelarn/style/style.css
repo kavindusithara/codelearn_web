@@ -1,0 +1,432 @@
+body {
+  background-color: #e8ebf3;
+  font-family: work-Sans, sans-serif;
+  margin: 0px;
+}
+.div1 {
+  width: 450px;
+  height: 510px;
+  background-color: white;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 2px 7px 3px #4148561f;
+  margin-top: 170px;
+  border: none;
+  border-radius: 7px;
+}
+
+.div2 {
+  text-align: center;
+  padding-top: 1px;
+}
+
+.div2 h4 {
+  font-size: 30px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.842);
+  font-weight: normal;
+}
+
+.div2 p {
+  color: rgba(0, 0, 0, 0.589);
+  margin-top: -29px;
+}
+
+.form-group {
+  font-size: 17px;
+  padding: 5px 16px 14px 16px;
+}
+
+.login-lable {
+  display: inline;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.login-input {
+  width: 398px;
+  height: 38px;
+  position: relative;
+  top: -8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: solid;
+  border-color: rgba(2, 2, 2, 0.267);
+  border-radius: 6px;
+  border-width: 2px;
+  padding-left: 14px;
+  margin-top: 14px;
+}
+
+.login-input:hover {
+  border-color: blueviolet;
+}
+
+.login {
+  width: 415px;
+  height: 46px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  transform: scale(1);
+  transition: transform 400ms;
+}
+
+.login:hover {
+  background-color: rgb(154, 76, 228);
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 400ms;
+}
+
+.div3 {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.forgotten {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.493);
+}
+
+.forgotten:hover {
+  text-decoration: underline !;
+  color: rgba(0, 0, 0, 0.822);
+}
+
+.login-divider {
+  position: relative;
+  top: -14px;
+  clear: both;
+  height: 0;
+  margin: 30px 0;
+  border-top: 1px solid #eff0f1;
+}
+
+.create-account {
+  width: 415px;
+  height: 46px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 8px;
+  margin-top: -19px;
+  transform: scale(1);
+  transition: transform 400ms;
+}
+
+.create-account:hover {
+  background-color: rgb(151, 41, 255);
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 400ms;
+}
+
+/*----------------------------------*/
+/*contact form css*/
+/*----------------------------------*/
+
+.contact {
+  width: 450px;
+  height: 533px !important;
+}
+
+.contact-about {
+  height: 110px;
+}
+
+.contact-submit {
+  margin-top: -4px;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*Article page styling*/
+
+header {
+  background-color: white;
+  height: 80px;
+}
+
+.article-header {
+  display: inline;
+  padding: 20px;
+  position: relative;
+  top: 10px;
+}
+
+.article-header-logo {
+  text-decoration: none;
+}
+
+.article-header h2 {
+  display: inline;
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blueviolet;
+  margin-left: 25px;
+}
+
+.article-header2 {
+  display: inline;
+  float: right;
+  position: relative;
+  top: 10px;
+  margin-right: 40px;
+}
+
+.article-login {
+  width: 110px;
+  height: 42px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid;
+  border-color: blueviolet;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.article-account {
+  width: 180px;
+  height: 42px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid;
+  border-color: blueviolet;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.article-hover:hover {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+.article-tittle {
+  background-color: white;
+  margin: 25px 20px 10px 20px;
+  padding: 20px 10px;
+  font-size: 45px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.container div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article-link {
+  background-color: white;
+  width: 24%;
+  margin: 30px 20px;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.article-link ul {
+  padding-left: 10px;
+}
+
+.article-link li {
+  background-color: rgb(225, 193, 255);
+  margin: 15px;
+  height: 25px;
+  padding-left: 10px;
+}
+
+.article-link li:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.article-link-link {
+  text-decoration: none;
+  color: black;
+}
+
+.article-body {
+  width: 67%;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 30px 20px 30px 0px;
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+.article-body h2 {
+  font-size: 35px;
+  color: blueviolet;
+}
+
+.article-body p {
+  text-align: justify;
+  text-indent: 50px;
+  margin-top: 40px;
+}
+
+.article-body li {
+  padding-top: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.div4 {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/*contact*/
+
+.article-contact {
+  width: 800px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: solid 5px white;
+  border-radius: 10px;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.contact-us {
+  width: 400px;
+  height: 70px;
+  font-size: 35px;
+}
+
+.contact-btn {
+  text-decoration: none;
+}
+
+/*register-form*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+
+.register-form {
+  margin-top: 20px;
+  height: 880px;
+}
+
+.register-divider {
+  margin-top: 35px;
+}
+
+.register-login {
+  text-decoration: none;
+}
+
+.back-home-link {
+  margin-left: 20px;
+}
+
+.back-home {
+  text-decoration: none;
+}
+
+.back-home:hover {
+  text-decoration: underline;
+  color: rgba(48, 14, 80, 0.801);
+}
+
+/*Home page(index.html)*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+
+/*
+body{
+  background-color: black;
+}
+
+.backgroung-gif{
+  width: 830px;
+ 
+}
+
+*/
+
+.backgroung-svg {
+  width: 500px;
+  margin: 150px 0px 0px 50px;
+}
+
+.home-welcome {
+  font-size: 40px;
+  margin: -350px 20px 0px 550px;
+}
+
+.home-welcome h1 {
+  font-size: 70px;
+  color: blueviolet;
+  margin: -120px 10px 0px 370px;
+}
+
+.home-welcome p {
+  font-size: 22px;
+  margin-top: -0px;
+}
+
+.home-btn {
+  width: 250px;
+  height: 70px;
+  font-size: 35px;
+  border: solid 5px blueviolet;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.home-btn:hover {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 2px 10px 3px #4148561f;
+}
+
+.left-btn {
+  margin-left: 80px;
+}
+
+.learn-link-btn {
+  text-decoration: none;
+}
